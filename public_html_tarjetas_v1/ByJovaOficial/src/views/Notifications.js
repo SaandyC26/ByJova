@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* ByJova1.1.0
+* ByJova1.1.0 Developer Sandra Cervantes
 =========================================================
 
 */
@@ -80,9 +80,14 @@ class Notifications extends React.Component {
                       <tr>
                         <th>Folio</th>
                         <th>Nombre</th>
+                        <th>Empresa</th>
                         <th>Fecha Inicio</th>
                         <th>Fecha Fin</th>
                         <th>Días de prueba</th>
+                        <th>Región</th>
+                        <th>Giro</th>
+                        <th>Email</th>
+                        <th>Teléfono</th>
               
                         {/* <th className="text-center">Salary</th> */}
                       </tr>
@@ -94,6 +99,7 @@ class Notifications extends React.Component {
                         <td>2020-10-02</td>
                         <td>2020-12-28</td>
                         <td>0</td>
+                        <td>SIg</td>
                         {/* <td className="text-center">$36,738</td> */}
                       </tr>
                       <tr>

@@ -19,7 +19,7 @@ var routes = [
   {
     path: "/dashboard",
     name: "Información clientes",
-    rtlName: "لوحة القيادة",
+    //rtlName: "لوحة القيادة",
     icon: "tim-icons icon-chart-pie-36",
     component: Dashboard,
     layout: "/admin"
@@ -27,16 +27,16 @@ var routes = [
   {
     path: "/tables",
     name: "Tarjeta digital",
-    rtlName: "قائمة الجدول",
-    icon: "tim-icons icon-puzzle-10",
+    //rtlName: "قائمة الجدول",
+    icon: "tim-icons icon-single-copy-04",
     component: CreateCard,
     layout: "/admin"
   },
   {
     path: "/icons",
     name: "Diseño",
-    rtlName: "الرموز",
-    icon: "tim-icons icon-atom",
+    //rtlName: "الرموز",
+    icon: "tim-icons icon-components",
     component: Icons,
     layout: "/admin"
   },
@@ -59,7 +59,7 @@ var routes = [
   {
     path: "/user-profile",
     name: "Perfil de usuario",
-    rtlName: "ملف تعريفي للمستخدم",
+    //rtlName: "ملف تعريفي للمستخدم",
     icon: "tim-icons icon-single-02",
     component: UserProfile,
     layout: "/admin"

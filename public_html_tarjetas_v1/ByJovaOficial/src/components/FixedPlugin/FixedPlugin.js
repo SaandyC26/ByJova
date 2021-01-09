@@ -1,7 +1,7 @@
   /*!
 
   =========================================================
-  * ByJova v1.1.0
+  * ByJova v1.1.0 Deverloper Sandra Cervantes 
   =========================================================
   */
   import React, { Component } from "react";

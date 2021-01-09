@@ -204,7 +204,8 @@ class CreateCard extends React.Component {
                             // defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
                             placeholder="Teléfono"
                             type="text"
-                            size="12"
+                            //size="12"
+                            maxlength="12"
                           />
                           </FormGroup>
 
