@@ -1,0 +1,23 @@
+Se ha de acceder a la BD de PRO y hacer un volcado de los datos.
+
+Este script se tiene que descargar desde local a través de la consola de comandos y subirlo entonces al entorno de DEV.
+
+ 
+
+Desde BD:
+$ mysqldump -u pperezcivit -p time_tracking_db > /tmp/backups/$(date +%Y_%m_%d)_time_tracking_db.sql
+
+ 
+
+Desde local, pull & push:
+$ oc rsync <pod-name>:<file-path> <local-path>
+
+$ oc rsync <local-path> <pod-name>:<file-path>
+
+ 
+
+*Para listar projects y pods:
+
+$ oc get projects
+
+$ oc get pods

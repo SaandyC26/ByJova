@@ -1,0 +1,20 @@
+New Time Tracking UI/UX & other issues
+
+- UI/UX:
+
+UI1. Table context menu (3-dotted icon) and clear fiters icons are not vertically aligned with column name
+UI2. Bad contrast ratio colors in navbar tooltips. Light blue vs white & Light blue vs Dark Blue
+UI3. User info columns filters dropdown. No margin between search field and first checkbox item.
+UI4. Rounded borders vs squared borders in windows, tables, popups/modals, and React native buttons in the entire app.
+UI5. Time Tracking navbar tab has a tooltip, but the other tabs have not.
+UI6. Number inputs arrows in Time Tracking pages calendar tables are not necessary.
+UI7. Time Tracking calendar day picker show only the year number instead of January in the month selector, which is confusing.
+UI8. Login credentials error text bad contrast ratio red vs. background
+UI9. User panel dropdown tooltip (Log out) overlaps with Help icon tooltip
+UI10. Monthly summary: Mouse type is a caret instead of a cursor/pointer when hovering the calendar header, which is clickable to open the picker. This should be as it is in the time tracking record time page.
+UI11. User info (managers): Mouse type is a caret instead of a cursor/pointer when hovering the team table row, which are clickable to open each specific user's page.
+
+- Other issues:
+
+OTH1. Error page for not found URLs (Example: timetracking.zurich.com/thisisawrongurl)
+OTH2. Restricted access pages are accessible by users whose role should not allow them to access those pages.

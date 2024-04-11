@@ -1,0 +1,15 @@
+New Time Tracking UI/UX & other issues 20/01/2022
+
+- UI/UX:
+
+UI1. User info '+/-' icons to expand collapse specific user info are a bit confusing. Normally '+/-' icons tells the user to add/remove something, maybe a row of the table. Could be changed to an arrow '>' and the same but rotated to look down, like in a file explorer tree.
+UI2. User info tooltip "Pending approval" is not aligned with the red warning icon for that user.
+UI3. "User month" label for user selection in monthly summary & approve by month views is a bit confusing. Same for "User week" in Approve by week. Should be only "User" or "User selection"?
+UI4. Time Tracking calendar day picker show only the year number instead of January in the month selector, which is confusing.
+
+- Other issues:
+
+OTH1. Admin users do not get redirected to confluence user guide, help button (?) is not working.
+OTH2. Multiple allocation exceeding total 100% of dedication for overlapping periods of time not triggering the yellow warning for that user.
+OTH3. Inputted hours in Record Time, while jumping from one day to other using Tab in the keyboard, not being recorded in the input. Only some of them remain written, the others stay at 0. The inputs that "dissapear" are completely random.
+OTH4. After saving hours as a manager, the week is not automatically approved (green check icon) as it should be if you're a manager.

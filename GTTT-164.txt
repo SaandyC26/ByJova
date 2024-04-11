@@ -1,0 +1,22 @@
+Especifiques Active/Inactive/Both
+Especifiques Area 1,2,3
+Especifiques 1 mes concret (mes i any)
+--------------------
+Active:
+- Usuaris actius en data del mes demanat (dates en blanc)
+- Usuaris nous actius amb la data d'alta dins del mes demanat (start date)
+- Usuaris que estaven actius però que s'han inactivat en data del mes demanat (end date)
+
+Inactive:
+- Usuaris inactius en data del mes demanat (dates en blanc)
+- Usuarius nous inactius amb la data de baixa dins del mes demanat (end date)
+- Usuaris que estaven inactius però que s'han activat en data del mes demanat (start date i end date)
+--------------------
+Testing: Quan ha d'haver-hi dates a les cel·les?
+
+Start Date:
+- Noves altes
+- Inactius que passen a actius de nou en el mes demanat
+
+End Date:
+- Noves baixes

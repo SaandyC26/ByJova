@@ -1,0 +1,29 @@
+* DEPLOY DEV=>UAT
+
+	1. Incrementar la versió del pom a x.x-SNAPSHOT, on x.x hauria de coincidir amb la versió que hi hagués en aquell moment al pom de la branca release/x.0.
+	
+	2. Merge integration->release/x.0 amb els nous canvis a pujar (no haurien d'haver-hi conflictes a la PR).
+	
+	3. Executar manualment a Bamboo el Build plan GT - Time Tracking/Release seleccionant la branca release/x.x. 
+		* Aquesta pipeline fa build, empaqueta el war amb la versió x.x (li treu "SNAPSHOT") que tenia el pom, i al final deixa preparat el pom de la branca release/x.0 amb la següent versió x.x+1-SNAPSHOT, i taggeja la branca amb la versió actual TimeTracking-x.x.
+	
+	4. A Bamboo, anar al Deployment project GT - Time Tracking - UAT+ seleccionar al núvol Deploy->UAT.
+	
+	5. Al Deployment preview seleccionar "Create new release from build result", amb la branca release/x.0 i l'últim build correcte, i escriure el nom de release que ens ha deixat taggejat a la branca release/x.0 la pipeline de build (TimeTracking-x.x).
+	
+	6. Executar el deployment.
+
+===================================================================================================================================
+* DEPLOY UAT=>PROD
+
+	1. A Bamboo, anar al Deployment project GT - Time Tracking - UAT+ seleccionar al núvol Deploy->PROD.
+	
+	2. Al Deployment preview seleccionar "Promote existing release to this environment", amb la branca release/x.0 i la release TimeTracking-x.x que actualment hi ha a UAT.
+	
+	3. Executar el deployment.
+
+===================================================================================================================================
+* CI/CD WORKFLOW:
+- For CLEAR minor bugfixes & features: Bugfix branch from release branch + directly deploy a minor release x.x (e.g. 3.25) to UAT.
+- For BIG IMPACT bugfixes & features: Branch from integration branch + immediate release to UAT.
+- For CLEAR hotfixes. Hotfix branch from current PROD version tagged commit + directly deploy a patch release x.x.Y (e.g. 3.25.1) to PROD.

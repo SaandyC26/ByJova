@@ -1,0 +1,23 @@
+- Behaviour 1 = Unique sownames PER USER:
+	-- If reduction to SAME sowname:
+		SOW1_OLD 1/5/21 - 31/5/21
+		SOW1_NEW 1/5/21 - 11/5/21
+
+		Dates from 1-11 will display SOW_NEW & dates from 11 onwards will display blank
+	-- If expansion to SAME sowname:
+		SOW1_OLD 1/5/21 - 11/5/21
+		SOW1_NEW 1/5/21 - 31/5/21
+
+		Dates from 1-11 will override the SOW_OLD with SOW_NEW & dates from 11 onwards will simply display SOW_NEW
+
+- Behaviour 2 = Priority to newest SOW if dates overlap:
+	-- If SOW2 included in SOW1:
+		SOW1 1/5/21 - 31/5/21
+		SOW2 1/5/21 - 11/5/21
+
+		Dates from 1-11 will now display SOW2 & dates from 11 onwards will still display SOW1
+    -- If SOW2 completely overlap SOW1:
+		SOW1 1/5/21 - 11/5/21
+		SOW2 1/5/21 - 31/5/21
+
+		Dates from 1-31 will now display SOW2 and SOW1 will be deleted

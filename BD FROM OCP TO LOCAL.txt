@@ -1,0 +1,6 @@
+Forward pod connection to local port:
+
+1. oc login (with Zurich credentials)
+2. oc project <project_name> (choose environment)
+3. oc port-forward service/<pod_service_name> <local_port>:<ocp_port> (oc port-forward service/timetrackingdb-v2 3307:3306)
+4. Login with DB credentials (tTracking2020) in the MySQL Workbench connection to the forwarded local port

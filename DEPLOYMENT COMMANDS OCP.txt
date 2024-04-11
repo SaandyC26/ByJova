@@ -1,0 +1,11 @@
+Delete previous deployment:
+
+oc delete all --selector app=timetrackingapp-dev
+
+** Only do this in DEV! Since it would delete TLS certificates when deleting the Routes
+
+New deployment setting up env variables:
+
+oc new-app --name timetrackingapp-dev gt00-gttt-docker-hosted.docker.nexus.zurich.com/timetrackingapp:v-3-23-snapshot -e spring_datasource_password=tTracking2020 -e spring_datasource_url=jdbc:mysql://timetrackingdb-v2:3306/time_tracking_db?useSSL=false&allowPublicKeyRetrieval=true -e spring_datasource_username=pperezcivit
+
+** Routes need to be added manually after deploy
