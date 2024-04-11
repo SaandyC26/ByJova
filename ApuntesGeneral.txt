@@ -1,0 +1,612 @@
+=========================== Finance Portal ===========================
+
+netstat -ano |findstr 5432
+  TCP    0.0.0.0:5432           0.0.0.0:0              LISTENING       8024
+  TCP    [::]:5432              [::]:0                 LISTENING       8024
+PS C:\Users\SANDRA.CERVANTES4\financeportalborradores\finance-portalv3 - Copy (2)\docker> taskkill /PID 8024 /F
+
+dotnet --versionApuntes General 
+
+sudo apt-get install apt-transport-https
+
+npm install -g typescript
+npm install react-scripts --save
+
+veracode
+paasphrase veracode
+
+
+npm install --save-dev @typescript-eslint/eslint-plugin
+
+sudo cp /mnt/c/Datos/LocalDocuments/FinancePortalChanges/finance-portal/docker/firewall_root_base64.cer /usr/local/share/ca-certificates/extra/firewall_root_base64.cer
+
+sudo openssl x509 -inform PEM -in /mnt/c/Datos/LocalDocuments/FinancePortalChanges/finance-portal/docker/firewall_root_base64.cer -out /usr/local/share/ca-certificates/extra/firewall_root_base64.crt
+wsl -l -v versiones de wsl
+wsl.exe -d wsl-vpnkit service wsl-vpnkit start
+docker-compose version 1.8.0, build unknown
+
+https://docs.docker.com/compose/cli-command/#install-on-linux
+docker compose version
+docker-compose --version
+code . 
+
+Set-ExecutionPolicy RemoteSigned
+
+& "C:UsersusernameDownloadsfirst_script.ps1"
+
+rm -rf node_modules/
+npm install
+
+
+dotnet --version
+sudo service docker start
+
+
+
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+
+
+   New major version of npm available! 6.14.0 -> 8.5.1      │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v8.5.1   │
+   │               Run npm install -g npm to update!               │
+
+
+
+wsl.exe -d wsl-vpnkit service wsl-vpnkit stop
+wsl --set-default-version
+wsl --terminate debian
+netsh interface portproxy delete v4tov4 listenport="5432
+telnet localhost 5432
+
+netstat -ano | findstr 5432
+
+taskkill /PID 8156 /F
+PING 10.216.125.53:32092
+taskkill /PID 18712 /F
+
+docker run --name postgresql -p 5432:5432 -e 'POSTGRES_PASSWORD=yourStrong(!)Password' -e 'POSTGRES_USER=root' -d postgres:13-bullseye
+
+
+netstat -ano
+ netstat -ano |findstr 5432   
+ taskkill /PID 7992 /F  
+
+pgadmin contraseña 1234
+
+
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin npm install --package-lock
+
+ npm install --package-lock
+npm i -g npm@6.14.0 
+ npm cache clean --force       
+
+npm install --legacy-peer-deps 
+npm install -g npm@latest --force
+
+   npm install -g typescript
+npm i @progress/kendo-ui
+npm install react-scripts --save
+
+
+Una vez que haya configurado la base de datos, puede usar la -dopción para el psqlcomando o agregar el nombre de la base de datos después de todas las demás psqlopciones, por ejemplo, psql -H myhost database.
+
+n any event, the solution is to pick an existing database and use
+
+psql -d dbname
+
+https://<username>:<password>@bitbucket.org/<username>/<repo>.git
+
+
+Actualizar
+
+npm-check-updates 
+
+ncu -u
+npm install
+
+
+dotnet tool install --global dotnet-ef
+
+ioc addtran
+
+revisar dependenca
+
+docker down
+docker rm -f $(docker ps -a -q)
+docker volume rm $(docker volume ls -q)
+
+sudo cp /mnt/c/Users/SANDRA.CERVANTES4/finance_1_7_0/finance-portal/docker/firewall_root_base64.cer /usr/local/share/ca-certificates/extra/firewall_root_base64.cer
+
+sudo openssl x509 -inform PEM -in /mnt/c/Users/SANDRA.CERVANTES4/finance_1_7_0/finance-portal/docker/firewall_root_base64.cer -out /usr/local/share/ca-certificates/extra/firewall_root_base64.crt
+
+docker run --name postgresql -p 5432:5432 -e 'POSTGRES_PASSWORD=yourStrong(!)Password' -e 'POSTGRES_USER=root' -d postgres:13-bullseye
+
+
+revisar conexion vpn
+revisar conexio wsl
+set execution piilie
+npm install force
+install kendi
+instaal typescript
+
+dotnet ef migrations add InitialCreate
+and then update the database:
+
+dotnet ef database update
+
+
+var ownerProjectManagerGroup = groups.Length > 0 ? groups[random.Next(0, groups.Length)] : new Group("Name Z", null);
+
+nuget restore 
+y
+
+msbuild /t:restore
+ambos no funcionaron para mí. Pero
+
+dotnet restor
+/usr/local/share/ca-certificates/extra
+
+sudo dpkg-reconfigure ca-certificates
+
+lista de certificados
+
+
+
+sandra.cervantes4 ALL=(ALL) NOPASSWD: /usr/bin/dockerd
+
+
+Try force refreshing your dependencies. Specifying -U does that
+
+mvn clean install -U
+Edit: You can purge your local release dependencies and to the normal mvn clean install afterwards:
+
+mvn dependency:purge-local-repository
+There is not way to force the release dependencies to be pulled, the -U only works with snapshot dependencies
+
+
+
+
+<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<debug>true</debug>
+					<debuglevel>lines,vars,source</debuglevel>
+				</configuration>
+			</plugin>
+
+
+ git clone https://bitbucket.zurich.com/scm/gttt/timetracking.git
+
+
+mvn clean install -DskipTests
+
+mvn compile
+
+
+>mvn package -DskipTests
+
+mvn exec:java -Dexec.mainClass=TimeTrackingApplication
+
+run
+mvn clean install -DskipTests
+
+
+git clone --branch <branchname> <remote-repo-url>
+git clone -b <branchname> <remote-repo-url>
+
+git clone -b release/3.0 https://bitbucket.zurich.com/scm/gttt/timetracking.git
+
+
+  //var ProjectOwnerGroupName = $"{nameof(Revenue.ProjectOwnerGroup)}{nameof(Group.Id)}";
+            //var projectownergroupname = $"{nameof(revenue.projectownergroup)}{nameof(group.name)}";
+            //builder.property<string>(projectownergroupname).isrequired();
+           
+
+ Console.WriteLine("INICIA masterDatasDictionary  " + string.Join(Environment.NewLine, masterDatasDictionary.Select(user => JsonConvert.SerializeObject(user))));
+           
+
+ //sandra.cervantes
+            Console.WriteLine("INICIA NUEVO  " +  string.Join(Environment.NewLine, fields.Select(user => JsonConvert.SerializeObject(user))));
+           
+
+    public User RemoveGroup(int groupId)
+        {
+            if (_groups.Any(r => r.Id.Equals(groupId))) _groups.RemoveWhere(r => r.Id.Equals(groupId));
+            return this;
+        }
+
+
+
+
+
+
+        public bool BePartOfGroup(string group)
+        {
+            if (!_groups.Any())
+            {
+                Console.WriteLine("BE PART OF GROUP VACIO --->>>  " + group);
+                return false;
+            }
+            else
+            {
+                return _groups.Any(r => r.Name.Equals(group));
+            }
+        }
+
+
+       public bool Locked { get; set; }
+
+
+========================= Time Tracking =============================
+
+git clone --branch release/1_7_0 https://bitbucket.zurich.com/scm/finpo/finance-portal.git
+cout
+y para tags string - 
+
+
+
+git clone --branch feature/DDEV-3500-gttt-create-a-ticket-manager-platform-in-the-app https://bitbucket.zurich.com/scm/gttt/timetracking.git
+
+
+
+            InputStream inputStream = new ByteArrayInputStream(byteFile);
+
+
+=========== Refactoring ============
+
+
+Refactorizar es hacer un cambio en la estructura interna del software para que sea más fácil de entender y más abrato de modificarlo
+sin cambiar su comportamiento observable 
+Evitar duplicidad, codigo complejo y dificil de entender
+sino se elimina la velocidad de desarrollo es más lenta 
+
+
+Agregar pruebas unitarias
+Temporary fields, baja cohesion
+
+Clases alternativas con diferentesnterfaces, cuando dos clases son similares en el interior pero diferentes en el exterior, 
+lo qu esiginifica que es codigo similar o casi identico
+
+
+
+Change Preventes, cuando el codigo in un lugar forza a cambiar el codigo en muchos lugares 
+Cmabio de divergencia, varios cambios en la misma clase por diferetnes razones 
+Solution Sprawl a solution is broken into multiple classes or places, cuando vemos el código que es responsable de una sola característica
+se extiende a través de multiples lentes, evitando que ambas sean modificadas apra que funconen
+
+Parallel Inheritance Hierarchies, cuando tienes que crear una subclase para una clausula que te hace crear subzruzado en otro lugar
+jerarquias de herencias palarelas 
+
+Reudcir el alto acoplamiento entre clases 
+Feature Envy, una clase usa demasiada funcionalidad de otra clase
+
+Innapropiate intimaxy - code smell sucede cuando varias clases estan relacionadas entre si 
+Excessive Exposure, exposición indecente ocurre cuando una clase o un módulo expone demasiados detalles inernos sobre si mismos, 
+
+Message chain, cadena de llamadas a metodos que que finalmente lo lleva a los datos que finalmente necesita
+
+Dispensables, codigo que no es necesario y que podiramos eliminar en mejorar nuestro codigo 
+Dead Code, codigo muerto, codigo queno se usa
+
+
+$ git clone --branch feature/DDEV-3500-gttt-create-a-ticket-manager-platform-in-the-app https://bitbucket.zurich.com/scm/gttt/timetracking.git
+
+============================================================
+     @SqlResultSetMapping(name = "CUSTOM_MAPPING", classes = @ConstructorResult(
+                targetClass = MovimientoPolizaResponse.class,
+                columns = {@ColumnResult(name = "name", type = String.class),
+                        @ColumnResult(name = "address", type = String.class)}));
+
+        Query q= entityManager.createNativeQuery("select t1.name,t2.address from T1 t1, T2 t2","CUSTOM_MAPPING");
+        List<MovimientoPolizaResponse> movimientosPoliza = q.getResultList();
+
+        TypedQuery<MovimientoPolizaResponse>
+        MovimientoPolizaResponse detailPoliza = convertPoliza(movimientos.stream().findFirst().orElse(null));
+
+        return detailPoliza;*/
+=============================================================
+
+Apuntes accesos
+
+https://oauth-openshift.apps.ocp4.zurich.com/login/Active_Directory?then=%2Foauth%2Fauthorize%3Fclient_id%3Dconsole%26idp%3DActive_Directory%26redirect_uri%3Dhttps%253A%252F%252Fconsole.apps.ocp4.zurich.com%252Fauth%252Fcallback%26response_type%3Dcode%26scope%3Duser%253Afull%26state%3D4931dab5
+
+opneshift
+generas la contraseña y ya despues entras con el usuario de adm y la nueva password
+
+y este es el link del openshift 
+Red Hat OpenShift Container Platform (zurich.com)
+
+le das en active directory en el link de redhat
+
+y cambia cada 24 horas
+
+
+(se vuelve a generar con el PAR)
+
+
+https://par.zurich.com/RSTS/Login?response_type=token&redirect_uri=https%3A%2F%2Fpar.zurich.com%2Fmy-requests
+
+
+adm-SACERVA2
+
+
+
+FINPO PROD DB
+
+
+oc login api.ocp4.zurich.com:6443 -u adm-SACERVA2
+
+\>oc project finance-portal-prod
+
+>oc port-forward service/postgresdb 5434:5432
+Primero es el puerto local y luego el de la db
+
+
+
+
+
+
+==================
+
+Guide WIre
+
+http://localhost:8280/ab/ContactManager.do
+
+su - user
+gw - pass
+
+
+Install docker 
+
+Power shell
+Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Hypervisor
+
+wsl --install
+
+wsl –import wsl-vpnkit C:\Users\SANDRA.CERVANTES4\wsl-vpnkit wsl-vpnkit
+
+
+
+=====================================================0
+
+
+Alondra
+
+IP Equipo Sandra Cervantes :       189.234.134.23
+ 
+SFTP Pruebas
+Server IP 200.185.37.69 / INTERNA: 10.119.40.12
+Usuario: caralcol
+Password: Lw2?+54E2zb
+ 
+Producción
+Server IP EXTERNA: 200.185.37.69 / INTERNA: 10.119.40.12
+Usuario: caralco
+Password: Lw2?+54E2zb
+ 
+TIA-Alondra
+Port: 22
+Server IP 200.185.37.69
+Usuario: caralc
+Password: TpA-2021+b
+
+
+==================
+
+sftp.servidor.hurto
+sftp.user.hurto
+sftp.password.hurto
+sftp.puerto.hurto
+
+
+Alondra ruta
+path.in /home/pentaho/files/IN
+path.sftp.in Entrada
+path.polizas.historical.hurtoatm /home/TIA-Alondra
+
+/home/pentaho/files/IN/ENTRADA
+/home/TIA-Alondra
+
+updatePolizasHurtoATM
+
+Entrada/Polizas/
+
+
+home/BBVA/Pruebas/Coaseguro_Aceptado/Emisión/Entrada
+
+
+/home/TIA-Alondra
+
+
+SFTP-IN
+      String.format("%s%s%s%s",
+                            channelSftp.getHome(),
+                            pathSftpIn,
+                            File.separatorChar,
+                            tipoFichero);
+
+/home/bbva/Pruebas/Coaseguro_Aceptado/Emision/Entrada \Polizas
+
+/home/TIA-Alondra/Entrada/Polizas/HurtoATM
+
+Enrada /FICHEROGETID(polizas coberturas recaudos)/HurtoATM
+
+
+====================================================
+
+curl -X POST \
+  http://localhost:8080/app/rest/v2/oauth/token \
+  -H 'Authorization: Basic Y2xpZW50OnNlY3JldA==' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -d 'grant_type=password&username=admin&password=admin'
+
+
+======================================================
+
+curl -H "Content-type: application/x-www-form-urlencoded" -H "Authorization: Basic Y2xpZW50OnNlY3JldA==" -d "grant_type=password&username=Zurich_admin&password=Zurich2022admin." http://localhost:8088/app/rest/v2/oauth/token
+
+
+
+=========================
+POST /oauth/token
+Authorization: Basic Y2xpZW50OnNlY3JldA==
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=refresh_token&refresh_token=e765446f-d49e-4634-a6d3-2d0583a0e7ea
+=========================
+
+
+C:\Users\SANDRA.CERVANTES4>curl -H "Content-type: application/x-www-form-urlencoded" -H "Authorization: Basic Y2xpZW50OnNlY3JldA==" -d "grant_type=password&username=Zurich_admin&password=Zurich2022admin." http://localhost:8088/app/rest/v2/oauth/token
+{"access_token":"2b9324cf-901a-4f27-a738-651ee70a36e5","token_type":"bearer","refresh_token":"78c2f473-227b-4876-a095-5f073eceb8d1","expires_in":43199,"scope":"rest-api"}
+C:\Users\SANDRA.CERVANTES4>
+
+{"access_token":"0708ddef-3f19-40e6-b5f3-f05893a47c76","token_type":"bearer","refresh_token":"e14bcc76-d48a-4785-9a87-634f5499f1ed","expires_in":43199,"scope":"rest-api"}
+
+
+ git push --set-upstream origin COSAMAZ-225
+
+========================
+
+curl -H "Authorization: Bearer bf393737-dd1a-4005-a2e5-a2022f7ef663" -H "Content-Type: application/json" -X POST -d "{\"date\": \"2018-10-12 15:47:28\", \"amount\":  9.90, \"customer\": {\"id\": \"383ebce2-b295-7378-36a1-bcf93693821f\"}}" http://localhost:8088/app/rest/v2/entities/sales$Order
+
+
+
+spring.datasource.platform=mssql-jdbc
+//spring.datasource.url=jdbc:sqlserver://172.19.1.33:1433;databaseName=ALONDRA_ZURUAT
+spring.datasource.url=jdbc:sqlserver://127.0.0.1:1434;databaseName=ALONDRA_TEST
+spring.datasource.url=jdbc:sqlserver://172.19.1.33:1433;databaseName=ALONDRA_ZURUAT
+spring.datasource.username=sa
+spring.datasource.password=Xeip2020*
+spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+
+
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=ALONDRA_TEST
+spring.datasource.url=jdbc:sqlserver;databasename=your_db_name;integratedSecurity=true
+
+spring.datasource.platform=mssql-jdbc
+spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=ALONDRA_TEST;integratedSecurity=true
+spring.jpa.database=SQL_SERVER
+spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+
+
+https://umane.emeal.nttdata.com/git/ZURCOL/ms-policy/-/merge_requests/1
+
+
+
+spring.datasource.url=jdbc:sqlserver://${MSSQL_HOST};databaseName=${MSSQL_DATABASE}
+spring.datasource.username=${MSSQL_USER}
+spring.datasource.password=${MSSQL_PASSWORD}
+
+
+ docker system prune -f
+
+ docker build --no-cache .
+[+] Building 0.1s (2/2) FINISHED
+
+
+scevante@emeal.nttdata.com
+172.19.1.32
+ALONDRA_ZURDEV
+sa
+ALONDRA_ZURDEV
+Xeip2020*
+
+
+spring.datasource.platform=mssql-jdbc
+//spring.datasource.url=jdbc:sqlserver://${MSSQL_HOST};databaseName=${MSSQL_DATABASE}
+//spring.datasource.username=${MSSQL_USER}
+//spring.datasource.password=${MSSQL_PASSWORD}
+
+spring.datasource.url=jdbc:sqlserver://172.19.1.33:1433;databaseName=ALONDRA_ZURUAT
+spring.datasource.username=sa
+spring.datasource.password=Xeip2020*
+spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+
+{
+    "numeroCertificado": 1,
+    "numeroPoliza": 239766,
+    "planID": "472",
+    "fechaOcurrencia": "05-02-2022",
+    "productID": "HTWB"
+}
+
+{
+    "numeroCertificado": 1,
+    "numeroPoliza": 2053,
+    "planID": "451",
+    "fechaOcurrencia": "17-07-2022",
+    "productID": "HWEB"
+}
+
+
+rafael munguia **
+miguel angel - pero cuando termine meterlo a TT
+
+FINPO Pendiente
+TT por paso *
+
+
+npm audit fix --force
+
+
+
+
+
+
+
+
+[12/8 11:53 AM] JORGE JIMENEZ
+docker build . --file docker/OData/Dockerfile --network host --tag gt10-finpo-docker-hosted.docker.nexus.zurich.com/odata:latest
+
+
+docker tag gt10-finpo-docker-hosted.docker.nexus.zurich.com/odata:latest gt10-finpo-docker-hosted.docker.nexus.zurich.com/odata:1.7.7
+
+
+
+λ docker login gt10-finpo-docker-hosted.docker.nexus.zurich.com
+
+Username: svc-OCP-Agent
+
+Password:E::8Wg=]R11O?20M]O1b
+
+Login Succeeded
+[12/8 12:01 PM] JORGE JIMENEZ
+docker push gt10-finpo-docker-hosted.docker.nexus.zurich.com/odata:1.7.7
+
+docker push gt10-finpo-docker-hosted.docker.nexus.zurich.com/odata
+
+
+
+======================================================
+
+Time Tracking
+docker build . --file Dockerfile --network host --tag gt00-gttt-docker-hosted.docker.nexus.zurich.com/timetracking/timetracking-webfrontend:3.237
+
+docker tag gt00-gttt-docker-hosted.docker.nexus.zurich.com/timetracking/timetracking-webfrontend:latest gt00-gttt-docker-hosted.docker.nexus.zurich.com/timetracking/timetracking-webfrontend:3.237
+
+ docker login gt00-gttt-docker-hosted.docker.nexus.zurich.com
+Username: svc-OCP-Agent
+
+docker push gt00-gttt-docker-hosted.docker.nexus.zurich.com/timetracking/timetracking-webfrontend:3.237
+
+docker push gt00-gttt-docker-hosted.docker.nexus.zurich.com/timetracking/timetracking-webfrontend
+
+
+
+gt00-gttt-docker-hosted.docker.nexus.zurich.com/timetracking/timetracking-webfrontend:${bamboo.frontendVersions.artifactVersion}
+
+
+gt00-gttt-docker-hosted.docker.nexus.zurich.com/timetracking/timetracking-webfrontend:${bamboo.frontendVersions.artifactVersion}
+
+
+
+
+
+
+
