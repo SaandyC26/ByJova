@@ -1,0 +1,18 @@
+jira-export -u ELLIOT.RIBASGARCIA -p Zurich12 --url https://jira.zurich.com --config Samples\config-agile-gttt.json --force
+142 items
+
+jira-export -u ELLIOT.RIBASGARCIA -p Zurich12 --url https://jira.zurich.com --config Samples\config-agile-time.json --force
+83 items
+
+jira-export -u ELLIOT.RIBASGARCIA -p Zurich12 --url https://jira.zurich.com --config Samples\config-agile-ddev.json --force
+157 items
+
+
+wi-import --token w6wqzwbbx7csxdckp43fr4zelwe67qdxvaihsimtmbfqzxduuozq --url https://dev.azure.com/zurichinsurance --config Samples\config-agile-gttt.json --force
+
+wi-import --token w6wqzwbbx7csxdckp43fr4zelwe67qdxvaihsimtmbfqzxduuozq --url https://dev.azure.com/zurichinsurance --config Samples\config-agile-time.json --force
+
+wi-import --token w6wqzwbbx7csxdckp43fr4zelwe67qdxvaihsimtmbfqzxduuozq --url https://dev.azure.com/zurichinsurance --config Samples\config-agile-ddev.json --force
+
+
+project = DDEV AND (component = GTTT OR labels = GTTT) AND (assignee in (ELLIOT.RIBASGARCIA, sandra.cervantes4) OR (assignee in (ALBERT.RENTEROROCA, sumit.patra1) OR assignee is EMPTY) AND (reporter = SOFIA.MARQUES OR reporter = ELLIOT.RIBASGARCIA))
