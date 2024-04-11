@@ -1,14 +1,4 @@
 {
-  "java.configuration.updateBuildConfiguration": "automatic",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit"
-  },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "java.compile.nullAnalysis.mode": "disabled",
-  "maven.view": "hierarchical"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic"
 }
