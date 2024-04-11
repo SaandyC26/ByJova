@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TimeTrackingApplication<TimeTracking>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.zurich.TimeTrackingApplication",
+            "projectName": "TimeTracking",
+            "args": "",
+            "vmArgs": "-Dspring.profiles.active=dev,local -Dmaven.wagon.http.ssl.insecure=false"
+        }
+    ]
+}
